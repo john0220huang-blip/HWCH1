@@ -1,0 +1,17 @@
+public class ch1 {
+    public static void main(String[] args) {
+        int num1 = 10;
+        int num2 = 5;
+        System.out.println("num1和num2的各種運算：");
+        System.out.println("num1+num2等於"+(num1+num2));
+        System.out.println("num1-num2等於"+(num1-num2));
+        System.out.println("num1*num2等於"+(num1*num2));
+        System.out.println("num1/num2等於"+(num1/num2));
+        System.out.println("num1%num2等於"+(num1%num2));
+        int a=0,b=0,c=0;
+        b=a++;
+        c=++a;
+        System.out.println("因為是指定後在進位,所以b的值為"+b);
+        System.out.println("因為是進位後在指定,所以c的值為"+c);
+    }
+}
